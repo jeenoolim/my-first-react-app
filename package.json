@@ -1,22 +1,35 @@
 {
-  "name": "my-first-react-app",
-  "version": "1.0.0",
-  "description": "study",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeenoolim/my-first-react-app.git"
-  },
-  "keywords": [
-    "react"
-  ],
-  "author": "jeenoolim",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jeenoolim/my-first-react-app/issues"
-  },
-  "homepage": "https://github.com/jeenoolim/my-first-react-app#readme"
+	"name": "my-first-react-app",
+	"version": "1.0.0",
+	"description": "study",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --config ./webpack.config.js --port 3333"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jeenoolim/my-first-react-app.git"
+	},
+	"keywords": ["react"],
+	"author": "study",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jeenoolim/my-first-react-app/issues"
+	},
+	"homepage": "https://github.com/jeenoolim/my-first-react-app#readme",
+	"dependencies": {
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.6",
+		"node-http-proxy-json": "^0.1.6",
+		"webpack": "^4.32.1",
+		"webpack-cli": "^3.3.2",
+		"webpack-dev-server": "^3.4.1",
+		"zlib": "^1.0.5"
+	}
 }
