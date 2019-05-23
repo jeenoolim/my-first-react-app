@@ -18,18 +18,19 @@
 	},
 	"homepage": "https://github.com/jeenoolim/my-first-react-app#readme",
 	"dependencies": {
+		"moment": "^2.24.0",
+		"moment-duration-format": "^2.2.2",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.4.5",
+		"@babel/plugin-proposal-class-properties": "^7.4.4",
 		"@babel/preset-env": "^7.4.5",
 		"@babel/preset-react": "^7.0.0",
 		"babel-loader": "^8.0.6",
-		"node-http-proxy-json": "^0.1.6",
 		"webpack": "^4.32.1",
 		"webpack-cli": "^3.3.2",
-		"webpack-dev-server": "^3.4.1",
-		"zlib": "^1.0.5"
+		"webpack-dev-server": "^3.4.1"
 	}
 }
